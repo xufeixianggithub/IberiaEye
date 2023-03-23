@@ -25,7 +25,7 @@ export default {
   },
 
   // https://go.nuxtjs.dev/config-css
-  css: ['vant/lib/index.css', 'ant-design-vue/dist/antd.css', '@/assets/index.css', '@/assets/tailwind.css'],
+  css: ['ant-design-vue/dist/antd.css', '@/assets/index.css', '@/assets/tailwind.css'],
 
   // https://go.nuxtjs.dev/config-plugins
   plugins: ['@/plugins/axios', '@/plugins/storage', '@/plugins/antd', '@/plugins/moment', '@/plugins/utils'],
