@@ -179,7 +179,7 @@
         <!-- 用户冻结 -->
         <a-form-model-item label="冻结" prop="freeze">
           <a-switch
-            :defaultChecked="form.edit.freeze ? true : false"
+            :checked="form.edit.freeze ? true : false"
             @change="
               (event) => {
                 form.edit.freeze = event ? 1 : 0
