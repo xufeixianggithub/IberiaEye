@@ -49,6 +49,7 @@ export default {
   // https://go.nuxtjs.dev/config-axios
   axios: {
     // https://github.com/nuxt-community/axios-module/issues/308
+    //ip
     baseURL: 'https://111.230.104.252/'
   },
 
