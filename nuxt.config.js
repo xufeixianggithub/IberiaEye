@@ -50,8 +50,8 @@ export default {
   axios: {
     // https://github.com/nuxt-community/axios-module/issues/308
     //ip 域名
-    //baseURL: 'http://111.230.104.252:2000/'
-    baseURL: 'https://joy-player.com:1999/'
+    baseURL: 'http://119.91.210.140:2000/'
+    //baseURL: 'https://joy-player.com:1999/'
   },
 
   // https://go.nuxtjs.dev/pwa
