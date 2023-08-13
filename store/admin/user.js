@@ -27,6 +27,13 @@ export const state = () => ({
         align: 'center'
       },
       {
+        title: '设备token',
+        dataIndex: 'blimitDevice',
+        key: 'blimitDevice',
+        width: '15%',
+        align: 'center'
+      },
+      {
         title: '账号',
         dataIndex: 'account',
         key: 'account',

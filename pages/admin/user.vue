@@ -120,6 +120,9 @@
         <a-form-model-item label="昵称" prop="name">
           <a-input v-model="form.add.name" />
         </a-form-model-item>
+        <a-form-model-item label="设备token" prop="name">
+          <a-input v-model="form.add.blimitDevice" />
+        </a-form-model-item>
         <a-form-model-item label="账号" prop="account">
           <a-input v-model="form.add.account" />
         </a-form-model-item>
@@ -581,6 +584,7 @@ export default {
         add: {
           name: null,
           account: null,
+          blimitDevice: null,
           password: null,
           server: 0,
           expireTime: this.$moment(Date.now() + 2592000000).format('YYYY-MM-DDTHH:mm:ss')
